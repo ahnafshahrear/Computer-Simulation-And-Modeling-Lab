@@ -6,9 +6,7 @@
 ## Lab Tasks
 - **Simulation of a Pure Pursuit problem**
 - **Simulation of Critical Path Method**
-- **Random Number Generator ✓**
-    - **MidSquare Method ✓**
-    - **Linear Congruential Method ✓**
-- **Simulation of a Chemical Reactor**
+- **Linear Congruential Method ✓**
+- **Simulation of a Chemical Reactor ✓**
 - **Simulation of a Cubic Bezier Curve ✓**
 - **Forecasting by ARIMA model**
