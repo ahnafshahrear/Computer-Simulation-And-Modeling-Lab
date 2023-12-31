@@ -4,7 +4,7 @@
 - **Code:** `CSE4131`
 
 ## Lab Tasks
-- **Simulation of a Pure Pursuit problem**
+- **Simulation of a Pure Pursuit problem ✓**
 - **Simulation of Critical Path Method**
 - **Linear Congruential Method ✓**
 - **Simulation of a Chemical Reactor ✓**
