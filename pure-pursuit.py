@@ -27,6 +27,7 @@ def pure_pursuit(x_bomber, y_bomber, xf, yf, fighter_speed):
         if distance > escape_distance or time > len(x_bomber):
             print(f"Target escaped at {time} second")
             break
+        
         sin = (y_bomber[time] - yf) / distance
         cos = (x_bomber[time] - xf) / distance
         time += 1
