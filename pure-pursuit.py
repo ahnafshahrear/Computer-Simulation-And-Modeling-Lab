@@ -11,11 +11,11 @@ def pure_pursuit(x_bomber, y_bomber, xf, yf, fighter_speed):
         y_fighter.append(yf)
 
         plt.clf()
-        plt.xlim(-100, 200)
-        plt.ylim(-100, 100)
         plt.title("Simulation of a Pure Pursuit")
         plt.plot(x_fighter, y_fighter, marker = "o", label = "Fighter")
         plt.plot(x_bomber[0 : time + 1], y_bomber[0 : time + 1], marker = "o", label = "Bomber")
+        plt.xlim(-100, 200)
+        plt.ylim(-100, 100)
         plt.legend()
         plt.grid()
         plt.pause(1)
