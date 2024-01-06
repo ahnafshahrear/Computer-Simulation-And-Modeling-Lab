@@ -9,4 +9,4 @@
 - **Simulation of Linear Congruential Method ✓**
 - **Simulation of a Chemical Reactor ✓**
 - **Simulation of a Cubic Bezier Curve ✓**
-- **Forecasting by ARIMA model**
+- **Forecasting by ARIMA model ✓**
