@@ -14,9 +14,11 @@ def chemical_reactor(A, B, C, k1, k2, end_time, dt):
         time_points.append(time)
         time += dt
 
-        A += (k2 * C - k1 * A * B) * dt
-        B += (k2 * C - k1 * A * B) * dt
-        C += (2 * k1 * A * B - 2 * k2 * C) * dt
+        k1AB = k1 * A * B;
+        k2C = k2 * C;
+        A += (k2C - k1AB) * dt
+        B += (k2C - k1AB) * dt
+        C += (2 * k1AB - 2 * k2C) * dt
 
         plt.clf()
         plt.title("Simulation of a Chemical Reactor")
