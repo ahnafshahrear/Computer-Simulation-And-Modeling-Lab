@@ -1,7 +1,7 @@
 # Computer Simulation & Modeling Lab
 - **[Ahnaf Shahrear Khan](https://github.com/ahnafshahrear)**
 - **Computer Science & Engineering, University of Rajshahi**
-- **Code:** `CSE4131`
+- **Code: `CSE-4131`**
 
 ## Lab Tasks
 - **Simulation of a Pure Pursuit problem ✓**
